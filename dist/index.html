@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
     <header></header>
     <div id="content">
-        <form id="demo-form">
-            <div class="form-element">
-                <label for="email">Email address</label>
-                <input type="text" id="email" required>
-            </div>
-            <div class="form-element">
-                <label for="country">Country</label>
-                <input type="text" id="country" required>
-            </div>
-            <div class="form-element">
-                <label for="zip-code">Zip code</label>
-                <input type="text" id="zip-code" required>
-            </div>
-            <div class="form-element">
-                <label for="password">Password</label>
-                <input type="text" id="password" required>
-            </div>
-            <div class="form-element">
-                <label for="confirm-password">Confirm password</label>
-                <input type="text" id="confirm-password" required>
-            </div>
-            <button id="submit-form" class="form-element">Submit</button>
-        </form>    
+      <form id="demo-form">
+        <div class="form-element">
+          <div class="label-container">
+            <label for="email">Email address</label>
+            <em>*</em>
+          </div>
+          <input type="text" id="email" required />
+        </div>
+        <div class="form-element">
+          <div class="label-container">
+            <label for="country">Country</label>
+          </div>
+          <input type="text" id="country" />
+        </div>
+        <div class="form-element">
+          <div class="label-container">
+            <label for="zip-code">Zip code</label>
+            <em>*</em>
+          </div>
+          <input type="text" id="zip-code" required />
+        </div>
+        <div class="form-element">
+          <div class="label-container">
+            <label for="password">Password</label>
+            <em>*</em>
+          </div>
+          <input type="text" id="password" required />
+        </div>
+        <div class="form-element">
+          <div class="label-container">
+            <label for="confirm-password">Confirm password</label>
+            <em>*</em>
+          </div>
+          <input type="text" id="confirm-password" required />
+        </div>
+        <button id="submit-form" class="form-element">Submit</button>
+      </form>
     </div>
     <div id="footer"></div>
-</body>
+  </body>
 </html>
