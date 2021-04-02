@@ -162,6 +162,9 @@ input {
 }
 em {
   position: relative;
-  left: 1rem;
+  left: 0.5rem;
   color: red;
+}
+#submit-form {
+  margin-bottom: 3vh;
 }
